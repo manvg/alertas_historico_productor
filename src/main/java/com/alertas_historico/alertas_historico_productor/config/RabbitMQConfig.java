@@ -14,10 +14,10 @@ public class RabbitMQConfig {
     @Value("${rabbitmq.exchange.alertas}")
     private String historicoExchange;
 
-    @Value("${rabbitmq.queue.alertas_historico}")
+    @Value("${rabbitmq.queue.registro_historico}")
     private String historicoQueue;
 
-    @Value("${rabbitmq.routingkey.alertas_historico}")
+    @Value("${rabbitmq.routingkey.registro_historico}")
     private String historicoRoutingKey;
 
     @Bean
